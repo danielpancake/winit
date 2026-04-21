@@ -7,8 +7,8 @@
 [![CI Status](https://github.com/rust-windowing/winit/workflows/CI/badge.svg)](https://github.com/rust-windowing/winit/actions)
 
 ```toml
-[dependencies]
-winit = "0.30.13"
+[patch.crates-io]
+winit = { git = "https://github.com/danielpancake/winit.git", branch = "fix-dpi-win11" }
 ```
 
 ## [Documentation](https://docs.rs/winit)
